@@ -11,6 +11,7 @@ namespace GradeBook.GradeBooks
         public RankedGradeBook(string name) : base(name)
         {
             Type = GradeBookType.Ranked;
+            isWeighted = false;
         }
 
         public override char GetLetterGrade(double averageGrade)
