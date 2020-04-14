@@ -40,11 +40,10 @@ namespace GradeBook.UserInterfaces
                 return;
             }
             var name = parts[1];
-            if (parts[2] == "standard")
-                
+            
+               
 
-            Console.WriteLine("Created gradebook {0}.", name);
-            GradeBookUserInterface.CommandLoop(gradeBook);
+           
         }
 
         public static void LoadCommand(string command)
